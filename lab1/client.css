@@ -1,0 +1,134 @@
+
+
+label{ /*username and other texts in welcomeview*/
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: left;
+    height: 25px;
+}
+input { /*input in like writing password in welcomeview*/
+    display: inline-block;
+    float: right;
+    width: 120px;
+}
+
+button{ /*buttons to click like login*/
+    float: right;
+}
+
+select{ /*select options, like gender in welcomeview*/
+    width: 124px;
+    float: right;
+}
+
+body{ /*main body on all pages?*/
+    background-color: lightblue;
+}
+
+#container{ /*Container on the welcomeview (logo, login and signup is within this). Also used on hometab*/
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+    height: 400px;
+    margin-top: 100px;
+}
+
+
+#image { /*image on welcomeview*/
+    background: white;
+    margin-left: 0px ;
+    height: 396px;
+    width: 336px;
+    border: 2px solid black;
+}
+
+#rightpanel { /*rightpanel (login, signup) on welcomeview*/
+
+    float: right;
+    height: 400px;
+    width: 250px;
+}
+
+#signin { /*signin window on welcomeview*/
+    background: white;
+    height: 76px;
+    border: 2px solid black;
+}
+
+#signup{ /*signup window on welcomeview*/
+    background: white;
+    margin-top: 10px;
+    height: 306px;
+    border: 2px solid black;
+}
+
+.menubartab{ /*The menu options home, account and browse*/
+    float: left;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 13px;
+    height: 35px;
+    border: 5px solid black;
+    background-color: whitesmoke;
+    color: teal;
+}
+
+#AccountTabInput{ /*Fields for writing old and new password on accounttab*/
+  	position: absolute;
+    color: black;
+    background-color: deeppink;
+    margin-left: 100px;
+    margin-top: 100px;
+    line-height: 25px;
+    padding: 20px;
+    width: 320px;
+}
+
+#UserData{ /*Text fields like username on hometab*/
+
+    position: absolute;
+    color: black;
+    background-color: green;
+    margin-left: 0px;
+    margin-top: 70px;
+    line-height: 15px;
+    padding: 20px;
+    width: 200px;
+    border: 5px solid black;
+}
+
+
+.MessageWall{ /*MessageWall including buttons*/
+    position: absolute;
+    margin-left: 255px;
+    margin-top: 70px;
+    width: 335px;
+    height: 400px;
+    background-color: hotpink;
+}
+
+.WrittenSpot{ /*Field things are written on wall*/
+	height: 100%;
+    width: 100%;
+    overflow: scroll;
+}
+
+#hometab_usertext{
+    width: 210px;
+}
+
+#browsetab_usertext{
+    width: 210px;
+}
+
+#browse_search{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 255px;
+}
+#browsetab_searchemail{
+    width: 180px;
+}
+
